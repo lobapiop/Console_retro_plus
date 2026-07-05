@@ -1,142 +1,162 @@
 # Project CRP - Architecture mécanique
 
-Version : 1.0
+Version : 1.1
 
 ---
 
 # 1. Objectif
 
-Ce document décrit l'architecture mécanique générale de Project CRP.
+Ce document décrit l'architecture mécanique de Project CRP.
 
-Il définit l'implantation des principaux composants, les principes de montage, la circulation de l'air ainsi que la stratégie de maintenance.
+Il définit les principes d'implantation des composants, les contraintes mécaniques et les objectifs de maintenance.
 
-Il ne constitue pas un plan de fabrication mais la référence qui guidera la conception du boîtier 3D.
+Il constitue la référence pour la conception du futur boîtier 3D.
 
 ---
 
-# 2. Philosophie de conception
+# 2. Philosophie
 
-Project CRP privilégie :
+La conception mécanique suit les principes suivants :
 
-* l'ergonomie ;
-* la robustesse ;
-* la réparabilité ;
-* la simplicité d'assemblage.
+* privilégier l'ergonomie ;
+* privilégier la réparabilité ;
+* limiter la complexité inutile ;
+* prévoir l'évolution du projet ;
+* conserver une architecture simple.
 
-La compacité n'est pas une priorité absolue.
+## Règle CRP n°1
 
-Le boîtier devra permettre une intervention rapide sur les principaux composants.
+**Une architecture ne sera complexifiée que si un bénéfice technique clairement identifié le justifie.**
+
+Autrement dit :
+
+* pas de PCB supplémentaire sans nécessité ;
+* pas de connecteur supplémentaire sans bénéfice ;
+* pas de mécanisme complexe si une solution simple répond au besoin.
 
 ---
 
 # 3. Dimensions cibles
 
-Dimensions provisoires :
+Objectifs actuels :
 
-* Largeur : 245 à 255 mm
-* Hauteur : 110 mm
-* Épaisseur : 25 à 30 mm (hors joysticks)
+* largeur : 245 à 255 mm
+* hauteur : environ 110 mm
+* épaisseur : 25 à 30 mm (hors joysticks)
 
 Poids cible :
 
 * inférieur à 600 g
 
-Ces valeurs pourront évoluer pendant la conception.
+Ces dimensions restent des objectifs et pourront évoluer au cours de la conception.
 
 ---
 
-# 4. Implantation générale
+# 4. Architecture générale
 
-Vue simplifiée :
+La console est organisée en plusieurs zones fonctionnelles.
 
 ```text
- ┌─────────────────────────────────────────────────────┐
- │ L1  L2                                 R1  R2       │
- │                                                     │
- │                                                     │
- │          Écran IPS 5 pouces (zone centrale)         │
- │                                                     │
- │ D-Pad                              X  Y             │
- │ Stick G                            A  B             │
- │                                                     │
- │           Start          Select                     │
- │                           Stick D                  │
- │                                                     │
- ├─────────────────────────────────────────────────────┤
- │ micro-HDMI │ USB-C │ Jack 3,5 mm │ Microphone       │
- └─────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────┐
+
+      L1 L2                                 R1 R2
+
+┌─────────────────────────────────────────────────────────────┐
+
+                  Écran IPS 5 pouces
+
+ D-Pad                                      ABXY
+
+ Stick G                                  Stick D
+
+              Start             Select
+
+└─────────────────────────────────────────────────────────────┘
+
+ micro-HDMI │ USB-C │ Jack │ Microphone
+
+└─────────────────────────────────────────────────────────────┘
 ```
 
-Les connecteurs sont regroupés sur la tranche inférieure afin de simplifier le dock.
+Les connecteurs sont volontairement regroupés sur la tranche inférieure afin de simplifier la conception du dock.
 
 ---
 
-# 5. Implantation interne
+# 5. Architecture interne
 
-L'organisation interne suit les principes suivants :
+L'intérieur de la console est organisé en couches.
 
-## Avant
+De l'avant vers l'arrière :
 
-* écran IPS ;
-* haut-parleurs ;
-* cartes boutons.
+1. coque avant ;
+2. écran IPS ;
+3. cartes de commandes (ou carte I/O selon la solution retenue) ;
+4. Raspberry Pi 5 ;
+5. batterie ;
+6. module d'alimentation ;
+7. coque arrière.
 
-## Centre
+Le positionnement définitif sera validé après le choix des composants.
+
+---
+
+# 6. Cartes électroniques
+
+À ce stade du projet, le nombre définitif de PCB n'est pas figé.
+
+Les modules fonctionnels identifiés sont :
 
 * Raspberry Pi 5 ;
-* système de refroidissement.
+* module alimentation ;
+* module d'entrées/sorties (I/O) incluant le RP2040 et les commandes.
 
-## Arrière
-
-* batterie LiPo ;
-* RP2040 (prototype : Raspberry Pi Pico) ;
-* module d'alimentation.
+La répartition physique sur un ou plusieurs PCB sera décidée après les études techniques afin d'éviter une complexité inutile.
 
 ---
 
-# 6. Batterie
+# 7. Batterie
 
-La batterie devra être :
+Objectifs :
 
-* centrée pour équilibrer le poids ;
-* facilement accessible ;
-* montée sur connecteur ;
-* remplaçable sans dessoudage.
+* autonomie cible : environ 6 heures ;
+* batterie facilement remplaçable ;
+* montage sur connecteur ;
+* accès rapide après ouverture de la coque.
 
-Le boîtier devra permettre son remplacement sans démonter l'ensemble de la console.
+La batterie devra participer à l'équilibrage du poids de la console.
 
 ---
 
-# 7. Refroidissement
+# 8. Refroidissement
 
-Le Raspberry Pi sera équipé d'un ventilateur.
+Toutes les versions de CRP intégreront un ventilateur.
 
-Le boîtier devra intégrer :
+Le boîtier devra prévoir :
 
 * une entrée d'air ;
 * une sortie d'air ;
-* un chemin de circulation direct.
+* un chemin de circulation direct vers le Raspberry Pi.
 
-Le ventilateur devra être remplaçable.
+Le contrôle intelligent de la vitesse est une fonctionnalité logicielle optionnelle.
 
-Le système de fixation sera prévu dès la première version, même si le pilotage intelligent est développé ultérieurement.
+Le ventilateur devra pouvoir être remplacé facilement.
 
 ---
 
-# 8. Maintenance
+# 9. Maintenance
 
 Objectif :
 
-Temps moyen d'ouverture inférieur à 5 minutes.
+Ouverture complète en moins de cinq minutes.
 
-Ordre de démontage :
+Ordre souhaité :
 
-1. Déposer les vis arrière.
-2. Retirer la coque arrière.
-3. Déconnecter la batterie.
-4. Accéder aux composants principaux.
+1. retrait des vis arrière ;
+2. ouverture de la coque ;
+3. déconnexion de la batterie ;
+4. accès immédiat aux principaux composants.
 
-Les éléments suivants devront être remplaçables individuellement :
+Les composants suivants devront être remplaçables :
 
 * batterie ;
 * Raspberry Pi ;
@@ -145,78 +165,86 @@ Les éléments suivants devront être remplaçables individuellement :
 * joysticks ;
 * haut-parleurs.
 
+Le démontage ne devra nécessiter aucun décollage de pièce.
+
 ---
 
-# 9. Fixations
+# 10. Fixations
 
 Le boîtier utilisera :
 
-* des vis métriques standard (M2 ou M2.5, à confirmer) ;
-* des inserts filetés en laiton chauffés dans le PETG.
+* vis métriques standard ;
+* inserts filetés en laiton intégrés au PETG.
 
-Les composants seront fixés mécaniquement, sans collage.
-
----
-
-# 10. Cheminement des câbles
-
-Les câbles devront être :
-
-* les plus courts possible ;
-* maintenus dans des guides intégrés au boîtier ;
-* éloignés du ventilateur.
-
-Les nappes de l'écran devront pouvoir être remplacées sans démontage complet.
+Le collage sera évité autant que possible.
 
 ---
 
-# 11. Dock
+# 11. Cheminement des câbles
 
-Le dock recevra la console par le dessous.
+Les câbles devront :
 
-La console viendra s'aligner naturellement grâce au boîtier.
+* rester courts ;
+* être guidés dans des logements dédiés ;
+* être protégés des parties mobiles ;
+* ne pas gêner le flux d'air.
 
-Le dock intégrera :
-
-* un connecteur USB-C d'alimentation ;
-* un connecteur micro-HDMI ;
-* une LED d'alimentation.
-
-L'insertion devra être guidée afin de limiter les contraintes sur les connecteurs.
+Les nappes de l'écran devront rester accessibles.
 
 ---
 
-# 12. Ergonomie
+# 12. Dock
 
-Le boîtier devra être confortable pour les grandes mains.
+Le dock constitue un accessoire indépendant.
 
-Les poignées arrière seront légèrement galbées.
+Fonctions :
 
-Les boutons seront suffisamment espacés pour limiter les appuis involontaires.
+* alimentation USB-C ;
+* sortie HDMI ;
+* LED indiquant la présence de l'alimentation.
 
-Le poids devra être réparti de manière équilibrée entre les deux mains.
+Le dock ne comporte aucun composant actif dans sa première version.
 
----
-
-# 13. Évolutions prévues
-
-Le boîtier devra permettre, sans refonte complète :
-
-* une batterie de capacité supérieure ;
-* un nouveau ventilateur ;
-* un RP2040 intégré sur PCB ;
-* une évolution du dock.
-
-L'architecture mécanique devra rester compatible avec ces améliorations.
+L'insertion devra être guidée afin de protéger les connecteurs USB-C et micro-HDMI.
 
 ---
 
-# 14. Validation
+# 13. Ergonomie
 
-Avant la conception détaillée du boîtier 3D, les points suivants devront être validés :
+La console est conçue pour offrir un bon confort aux utilisateurs ayant de grandes mains.
 
-* choix définitif de la batterie ;
-* dimensions de l'écran ;
-* dimensions des joysticks ;
-* dimensions du ventilateur ;
-* dimensions du module d'alimentation.
+Les objectifs sont :
+
+* poignées arrière légèrement galbées ;
+* commandes suffisamment espacées ;
+* répartition équilibrée du poids ;
+* accès facile aux gâchettes.
+
+Le confort est privilégié par rapport à la recherche d'une taille minimale.
+
+---
+
+# 14. Évolutivité
+
+L'architecture devra permettre sans refonte complète :
+
+* une nouvelle batterie ;
+* un ventilateur différent ;
+* un RP2040 intégré sur un PCB personnalisé ;
+* une évolution du dock ;
+* une évolution de la carte I/O.
+
+---
+
+# 15. Validation
+
+Avant la conception du boîtier 3D, devront être validés :
+
+* la batterie ;
+* l'écran ;
+* les joysticks ;
+* le ventilateur ;
+* le module d'alimentation ;
+* la stratégie de répartition des PCB.
+
+Aucune décision sur le nombre de PCB ne sera prise avant la fin des études techniques.
