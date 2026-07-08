@@ -153,11 +153,11 @@ Noter immédiatement :
 
 | Information | Valeur |
 |---|---|
-| Date du téléchargement |  |
-| Version Batocera |  |
+| Date du téléchargement | 08/07/2026 |
+| Version Batocera | batocera-bcm2712-43.1-20260529 |
 | Architecture | bcm2712 |
-| Nom exact du fichier |  |
-| Taille du fichier |  |
+| Nom exact du fichier | batocera-bcm2712-43.1-20260529.img |
+| Taille du fichier | 6.5 Gib |
 | Somme de contrôle publiée |  |
 | Somme de contrôle vérifiée |  |
 

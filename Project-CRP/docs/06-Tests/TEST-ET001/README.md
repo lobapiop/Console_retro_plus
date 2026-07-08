@@ -101,3 +101,23 @@ L’écran ne doit être déclaré définitivement validé qu’après :
 - fonctionnement prolongé sans défaut critique ;
 - intégration mécanique jugée possible ;
 - absence de blocage majeur pour la sortie TV.
+
+## Ventilateur pendant les tests ET001
+
+Pendant les tests de validation de l’écran, le Raspberry Pi 5 utilisera le refroidisseur actif branché sur le connecteur ventilateur officiel.
+
+Aucune courbe de ventilation personnalisée ne sera configurée dans Batocera pendant ET001.
+
+Objectif :
+
+- garantir un refroidissement suffisant ;
+- éviter de confondre un problème thermique avec un problème d’écran ;
+- conserver une configuration logicielle simple ;
+- reporter l’optimisation du bruit et des courbes de ventilation à l’étude ET006 – Refroidissement.
+
+Le comportement du ventilateur sera simplement observé :
+
+- ventilateur détecté ou non ;
+- démarrage automatique ;
+- bruit perceptible ;
+- température du Raspberry Pi pendant les essais prolongés.
