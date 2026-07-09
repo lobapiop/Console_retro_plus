@@ -28,11 +28,11 @@ Effectuer cinq cycles :
 
 | Cycle | Affichage au démarrage | Résolution correcte | Défaut observé |
 |---:|---|---|---|
-| 1 |  |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
-| 4 |  |  |  |
-| 5 |  |  |  |
+| 1 | Oui | Oui | Non |
+| 2 | Oui | Oui | Non |
+| 3 | Oui | Oui | Non |
+| 4 | Oui | Oui | Non |
+| 5 | Oui | Oui | Non |
 
 ## 4. Critère de réussite
 
@@ -40,6 +40,6 @@ Les cinq cycles doivent produire le même comportement d’affichage.
 
 ## 5. Conclusion
 
-Résultat : Réussi / Échec
+Résultat : Réussi 
 
 Remarques :

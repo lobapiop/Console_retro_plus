@@ -28,14 +28,14 @@ Observer l’écran :
 
 | Position | Lisibilité | Variation des couleurs | Variation du contraste |
 |---|---|---|---|
-| Face |  |  |  |
-| Gauche |  |  |  |
-| Droite |  |  |  |
-| Haut |  |  |  |
-| Bas |  |  |  |
+| Face | Ok | Ok | Ok |
+| Gauche | Ok | Ok | Ok |
+| Droite | Ok | Ok | Ok |
+| Haut | Ok | Ok | Ok |
+| Bas | Ok | Ok | Ok |
 
 ## 4. Conclusion
 
-Résultat : Réussi / Acceptable / Échec
+Résultat : Réussi 
 
 Remarques :

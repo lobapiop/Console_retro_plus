@@ -27,13 +27,13 @@ Vérifier que Batocera utilise une résolution adaptée, idéalement 1024×600 �
 
 | Élément | Valeur |
 |---|---|
-| Résolution détectée |  |
-| Résolution sélectionnée |  |
-| Fréquence détectée |  |
-| Orientation | Paysage / Portrait |
-| Configuration manuelle nécessaire | Oui / Non |
-| Fichier modifié |  |
-| Paramètres ajoutés |  |
+| Résolution détectée | 1024x600 |
+| Résolution sélectionnée | 1024x600 |
+| Fréquence détectée | 66 |
+| Orientation | Paysage  |
+| Configuration manuelle nécessaire | Non |
+| Fichier modifié | Aucun |
+| Paramètres ajoutés | Aucun |
 
 ## 4. Critères de réussite
 
@@ -44,6 +44,6 @@ Vérifier que Batocera utilise une résolution adaptée, idéalement 1024×600 �
 
 ## 5. Conclusion
 
-Résultat : Réussi / Réussi avec configuration / Échec
+Résultat : Réussi 
 
 Remarques :

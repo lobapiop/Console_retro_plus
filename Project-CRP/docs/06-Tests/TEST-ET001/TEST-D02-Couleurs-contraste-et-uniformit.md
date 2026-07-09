@@ -31,28 +31,27 @@ Afficher successivement :
 
 | Élément | Note sur 10 | Remarque |
 |---|---:|---|
-| Niveau de noir |  |  |
-| Niveau de blanc |  |  |
-| Contraste |  |  |
-| Rouge |  |  |
-| Vert |  |  |
-| Bleu |  |  |
-| Dégradés |  |  |
-| Uniformité |  |  |
+| Niveau de noir | 10 |  |
+| Niveau de blanc | 10 |  |
+| Contraste | 10 |  |
+| Rouge | 10 |  |
+| Vert | 10 |  |
+| Bleu | 10 |  |
+| Dégradés | 10 |  |
+| Uniformité | 10 |  |
 
 ## 4. Défauts
 
 | Défaut | Présent | Localisation |
 |---|---|---|
-| Pixel mort |  |  |
-| Pixel bloqué |  |  |
-| Fuite de lumière |  |  |
-| Zone sombre |  |  |
-| Variation de couleur |  |  |
-| Bande verticale ou horizontale |  |  |
+| Pixel mort | non |  |
+| Pixel bloqué | non |  |
+| Fuite de lumière | non |  |
+| Zone sombre | non |  |
+| Variation de couleur | non |  |
+| Bande verticale ou horizontale | non |  |
 
 ## 5. Conclusion
 
-Résultat : Réussi / Acceptable / Échec
-
+Résultat : Réussis
 Remarques :

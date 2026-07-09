@@ -26,15 +26,15 @@ Rechercher les défauts visibles pendant les mouvements rapides.
 
 | Élément | Résultat |
 |---|---|
-| Défilement fluide |  |
-| Déchirure d’image visible |  |
-| Rémanence visible |  |
-| Saccades liées à l’affichage |  |
-| Scintillement |  |
-| Perte temporaire du signal |  |
+| Défilement fluide | Oui |
+| Déchirure d’image visible | Non |
+| Rémanence visible | Non |
+| Saccades liées à l’affichage | Non |
+| Scintillement | Non |
+| Perte temporaire du signal | Non |
 
 ## 4. Conclusion
 
-Résultat : Réussi / Acceptable / Échec
+Résultat : Réussi
 
 Remarques :

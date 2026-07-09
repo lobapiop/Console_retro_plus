@@ -28,20 +28,20 @@ Naviguer dans :
 
 | Contrôle | Conforme | Remarque |
 |---|---|---|
-| Textes lisibles |  |  |
-| Menus entièrement visibles |  |  |
-| Icônes correctement dimensionnées |  |  |
-| Aucun élément coupé |  |  |
-| Navigation fluide |  |  |
-| Fenêtres de dialogue lisibles |  |  |
-| Réglages accessibles |  |  |
+| Textes lisibles | Oui |  |
+| Menus entièrement visibles | Oui |  |
+| Icônes correctement dimensionnées | Oui |  |
+| Aucun élément coupé | Oui |  |
+| Navigation fluide | Oui |  |
+| Fenêtres de dialogue lisibles | Oui |  |
+| Réglages accessibles | Oui |  |
 
 ## 4. Évaluation
 
-Note de lisibilité sur 10 :
+Note de lisibilité sur 10 : 10
 
 ## 5. Conclusion
 
-Résultat : Réussi / Acceptable / Échec
+Résultat : Réussi 
 
 Remarques :

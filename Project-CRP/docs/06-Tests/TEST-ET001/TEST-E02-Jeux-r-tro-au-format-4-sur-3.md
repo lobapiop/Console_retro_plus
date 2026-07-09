@@ -26,23 +26,23 @@ Vérifier le rendu des principaux systèmes rétro conçus pour un écran 4:3.
 
 | Contrôle | Conforme | Remarque |
 |---|---|---|
-| Proportions respectées |  |  |
-| Bordures acceptables |  |  |
-| Pixels nets |  |  |
-| Texte en jeu lisible |  |  |
-| Aucun recadrage |  |  |
-| Fluidité satisfaisante |  |  |
+| Proportions respectées | Oui |  |
+| Bordures acceptables | Oui |  |
+| Pixels nets | Oui |  |
+| Texte en jeu lisible | Oui |  |
+| Aucun recadrage | Non |  |
+| Fluidité satisfaisante | Oui |  |
 
 ## 4. Jeux utilisés
 
 | Système | Jeu | Résultat |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Super Nintendo | Classic Kong | ok |
+| Ports | Doom | ok |
+| DS | Pokemon Or | ok |
 
 ## 5. Conclusion
 
-Résultat : Réussi / Acceptable / Échec
+Résultat : Réussi 
 
-Remarques :
+Remarques : Pour les jeux, l'écran était un peu petit j'ai du faire du paramétrage pour avoir un écran un peu plus confort. Le paramètrage n'est pas terrible mais j'ai pas passé beaucoup de temps pour trouver le bon.

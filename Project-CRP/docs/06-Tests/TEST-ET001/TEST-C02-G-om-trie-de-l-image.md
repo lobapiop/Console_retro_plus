@@ -28,14 +28,14 @@ Utiliser une mire comprenant :
 
 | Contrôle | Conforme | Remarque |
 |---|---|---|
-| Le cercle reste circulaire |  |  |
-| Le carré reste carré |  |  |
-| Les quatre bordures sont visibles |  |  |
-| L’image est centrée |  |  |
-| Aucun recadrage |  |  |
-| Aucun étirement horizontal |  |  |
-| Aucun étirement vertical |  |  |
-| Texte net et lisible |  |  |
+| Le cercle reste circulaire | Oui  |  |
+| Le carré reste carré | Oui |  |
+| Les quatre bordures sont visibles | Oui |  |
+| L’image est centrée | Oui |  |
+| Aucun recadrage | Oui |  |
+| Aucun étirement horizontal | Oui |  |
+| Aucun étirement vertical | Oui |  |
+| Texte net et lisible | Oui |  |
 
 ## 4. Critère de réussite
 
@@ -43,6 +43,6 @@ Aucune déformation gênante ne doit être visible.
 
 ## 5. Conclusion
 
-Résultat : Réussi / Acceptable avec réserve / Échec
+Résultat : Réussi
 
 Remarques :

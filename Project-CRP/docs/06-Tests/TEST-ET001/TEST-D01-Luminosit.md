@@ -29,23 +29,23 @@ Tester :
 
 | Condition | Note sur 10 | Remarque |
 |---|---:|---|
-| Pièce sombre |  |  |
-| Éclairage intérieur normal |  |  |
-| Proximité d’une fenêtre |  |  |
-| Luminosité minimale |  |  |
-| Luminosité maximale |  |  |
+| Pièce sombre | 8 |  |
+| Éclairage intérieur normal | 8 |  |
+| Proximité d’une fenêtre | 8 |  |
+| Luminosité minimale | 8|  |
+| Luminosité maximale | 8 |  |
 
 ## 4. Contrôles complémentaires
 
 | Contrôle | Résultat |
 |---|---|
-| Scintillement à faible luminosité |  |
-| Réglage suffisamment progressif |  |
-| Mémorisation après arrêt |  |
-| Confort à luminosité maximale |  |
+| Scintillement à faible luminosité | Non |
+| Réglage suffisamment progressif | Oui |
+| Mémorisation après arrêt | non testé |
+| Confort à luminosité maximale | Ok |
 
 ## 5. Conclusion
 
-Résultat : Réussi / Acceptable / Insuffisant
+Résultat : Réussi 
 
 Réglage recommandé :
