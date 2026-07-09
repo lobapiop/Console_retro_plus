@@ -33,12 +33,12 @@ Vérifier que l’écran s’allume normalement lorsqu’il est alimenté seul.
 
 | Observation | Résultat |
 |---|---|
-| Rétroéclairage visible |  |
-| Message d’absence de signal |  |
-| LED d’état éventuelle |  |
-| Bruit anormal |  |
-| Odeur anormale |  |
-| Chauffe immédiate anormale |  |
+| Rétroéclairage visible | Oui |
+| Message d’absence de signal | Oui |
+| LED d’état éventuelle | je n'ai pas vu de led |
+| Bruit anormal |non |
+| Odeur anormale | non |
+| Chauffe immédiate anormale | non |
 
 ## 5. Critère de réussite
 
@@ -46,6 +46,6 @@ L’écran s’allume sans comportement dangereux ou anormal.
 
 ## 6. Conclusion
 
-Résultat : Réussi / Échec / À confirmer
+Résultat : Réussi 
 
 Remarques :

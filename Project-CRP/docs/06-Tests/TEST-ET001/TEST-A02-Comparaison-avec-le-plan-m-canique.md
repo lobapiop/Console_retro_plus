@@ -33,21 +33,21 @@ Déterminer si le plan mécanique précédemment trouvé correspond réellement 
 
 | Élément comparé | Identique | Différent | Remarque |
 |---|---|---|---|
-| Forme générale du PCB |  |  |  |
-| Position du port HDMI |  |  |  |
-| Position du port USB-C |  |  |  |
-| Nombre de boutons |  |  |  |
-| Position des boutons |  |  |  |
-| Nombre de trous de fixation |  |  |  |
-| Position des trous |  |  |  |
-| Forme des composants arrière |  |  |  |
-| Dimensions générales |  |  |  |
+| Forme générale du PCB | Identique |  |  |
+| Position du port HDMI | Identique |  |  |
+| Position du port USB-C | Identique |  |  |
+| Nombre de boutons | Identique |  |  |
+| Position des boutons | Identique |  |  |
+| Nombre de trous de fixation | Identique |  |  |
+| Position des trous | Identique |  |  |
+| Forme des composants arrière | Identique |  |  |
+| Dimensions générales | Identique |  |  |
 
 ## 5. Décision documentaire
 
 Plan correspondant au produit :
 
-- [ ] Oui, correspondance confirmée
+- [X] Oui, correspondance confirmée
 - [ ] Correspondance partielle
 - [ ] Non, modèle différent
 - [ ] Impossible à déterminer
@@ -56,10 +56,37 @@ Plan utilisable pour FreeCAD :
 
 - [ ] Oui
 - [ ] Non
-- [ ] Seulement après correction
+- [X] Seulement après correction
 
 ## 6. Conclusion
 
-Résultat : Réussi / Échec / À approfondir
+Résultat : Réussi 
 
-Corrections à apporter au plan :
+Corrections à apporter au plan : 
+## Mise à jour – Distinction entre hauteur totale et zone écran
+
+Le module Elecrow reçu mesure approximativement :
+
+- longueur horizontale totale : 121,31 mm ;
+- hauteur totale du module : 95,47 mm ;
+- profondeur approximative : 10 mm ;
+- rectangle physique de l’écran : 75,65 mm de hauteur.
+
+La différence entre la hauteur totale du module et le rectangle physique de l’écran est d’environ :
+
+95,47 mm - 75,65 mm = 19,82 mm.
+
+Cette zone supplémentaire semble correspondre principalement à une zone technique liée aux fixations, au PCB ou aux connecteurs, et non à la surface visible de l’écran.
+
+Cette distinction est importante pour Project CRP :
+
+- la façade visible ne doit pas nécessairement exposer les 95,47 mm complets ;
+- l’ouverture esthétique peut être dimensionnée autour de la zone écran ;
+- la zone technique supérieure peut être cachée derrière la coque ;
+- l’encombrement interne total reste néanmoins de 95,47 mm.
+
+La contrainte mécanique est donc moins sévère que si toute la hauteur était visible en façade.
+
+La note provisoire d’intégration mécanique de l’Elecrow est corrigée à 8/10.
+
+Le module reste candidat prioritaire sous réserve de validation du câblage, des fixations et des tests d’affichage.

@@ -643,6 +643,53 @@ La hauteur réelle de 77,93 mm est nettement plus favorable que la valeur de 95,
 
 La note provisoire d’intégration mécanique de l’Elecrow est portée à 9/10.
 
+## Mise à jour – Dimensions réelles du module reçu
+
+Le module Elecrow reçu a été mesuré manuellement.
+
+Dimensions relevées :
+
+- longueur horizontale : 121,31 mm ;
+- hauteur verticale : 95,47 mm ;
+- profondeur maximale approximative : 10 mm.
+
+Ces mesures invalident le plan mécanique précédemment étudié indiquant une hauteur de 77,93 mm pour le module complet. Ce plan est donc classé comme non correspondant au module reçu.
+
+La hauteur réelle de 95,47 mm est compatible avec Project CRP, mais elle réduit fortement les marges verticales dans une coque cible d’environ 110 mm.
+
+Avec une hauteur de coque de 110 mm, il resterait environ 14,53 mm au total, soit environ 7,26 mm en haut et 7,26 mm en bas avant déduction des parois, tolérances, renforts et fixations.
+
+La note d’intégration mécanique provisoire de l’Elecrow est corrigée de 9/10 à 7,5/10.
+
+Le module reste candidat prioritaire, sous réserve de validation de l’affichage, du câblage et de la future implantation mécanique.
+
+## Mise à jour – Distinction entre hauteur totale et zone écran
+
+Le module Elecrow reçu mesure approximativement :
+
+- longueur horizontale totale : 121,31 mm ;
+- hauteur totale du module : 95,47 mm ;
+- profondeur approximative : 10 mm ;
+- rectangle physique de l’écran : 75,65 mm de hauteur.
+
+La différence entre la hauteur totale du module et le rectangle physique de l’écran est d’environ :
+
+95,47 mm - 75,65 mm = 19,82 mm.
+
+Cette zone supplémentaire semble correspondre principalement à une zone technique liée aux fixations, au PCB ou aux connecteurs, et non à la surface visible de l’écran.
+
+Cette distinction est importante pour Project CRP :
+
+- la façade visible ne doit pas nécessairement exposer les 95,47 mm complets ;
+- l’ouverture esthétique peut être dimensionnée autour de la zone écran ;
+- la zone technique supérieure peut être cachée derrière la coque ;
+- l’encombrement interne total reste néanmoins de 95,47 mm.
+
+La contrainte mécanique est donc moins sévère que si toute la hauteur était visible en façade.
+
+La note provisoire d’intégration mécanique de l’Elecrow est corrigée à 8/10.
+
+Le module reste candidat prioritaire sous réserve de validation du câblage, des fixations et des tests d’affichage.
 
 # 8. Statut
 

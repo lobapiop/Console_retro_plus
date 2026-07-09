@@ -36,15 +36,15 @@ Manette PS4/PS5 ── USB ──► Raspberry Pi 5
 
 | Point contrôlé | Résultat |
 |---|---|
-| Logo ou texte visible au démarrage |  |
-| Affichage pendant le chargement |  |
-| Démarrage de Batocera |  |
-| Image centrée |  |
-| Image complète |  |
-| Image stable |  |
-| Couleurs normales |  |
-| Absence de scintillement |  |
-| Absence de lignes parasites |  |
+| Logo ou texte visible au démarrage | oui |
+| Affichage pendant le chargement | oui |
+| Démarrage de Batocera | oui |
+| Image centrée | oui |
+| Image complète | oui |
+| Image stable | oui |
+| Couleurs normales | oui |
+| Absence de scintillement | oui |
+| Absence de lignes parasites | oui |
 
 ## 5. Critère de réussite
 
@@ -52,6 +52,6 @@ Batocera apparaît de manière stable et exploitable.
 
 ## 6. Conclusion
 
-Résultat : Réussi / Échec / À confirmer
+Résultat : Réussi 
 
-Remarques :
+Remarques : je n'ai pas testé sur un jeu DS mais Nintendo 64 (dongkey kong) qui est par défaut sur le système.

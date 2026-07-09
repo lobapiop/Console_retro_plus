@@ -16,8 +16,8 @@ Vérifier que le produit reçu correspond au module commandé et qu’il ne pré
 
 ## 2. Matériel nécessaire
 
-- module Elecrow reçu ;
-- emballage et accessoires ;
+- module Elecrow reçu ; 
+- emballage et accessoires ; 
 - téléphone ou appareil photo ;
 - plan ou fiche produit disponible.
 
@@ -33,17 +33,17 @@ Vérifier que le produit reçu correspond au module commandé et qu’il ne pré
 
 | Contrôle | Observation | Conforme |
 |---|---|---|
-| Marque Elecrow présente |  | Oui / Non |
-| Diagonale annoncée de 5 pouces |  | Oui / Non |
-| Résolution annoncée de 1024×600 |  | Oui / Non |
-| Référence DLH04950B présente |  | Oui / Non / Non trouvée |
-| Entrée HDMI présente |  | Oui / Non |
-| Connecteur USB-C présent |  | Oui / Non |
+| Marque Elecrow présente |  | Oui  |
+| Diagonale annoncée de 5 pouces |  | Oui |
+| Résolution annoncée de 1024×600 |  | Oui |
+| Référence DLH04950B présente |  |  Non trouvée |
+| Entrée HDMI présente |  | Oui  |
+| Connecteur USB-C présent |  | Oui |
 | Tactile présent |  | Oui / Non |
-| PCB sans dommage visible |  | Oui / Non |
-| Dalle sans fissure |  | Oui / Non |
-| Connecteurs non déformés |  | Oui / Non |
-| Accessoires conformes |  | Oui / Non |
+| PCB sans dommage visible |  | Oui  |
+| Dalle sans fissure |  | Oui  |
+| Connecteurs non déformés |  | Oui |
+| Accessoires conformes |  | Oui  |
 
 ## 5. Critères de réussite
 
@@ -54,10 +54,10 @@ Vérifier que le produit reçu correspond au module commandé et qu’il ne pré
 
 ## 6. Conclusion
 
-Résultat : Réussi / Échec / À confirmer
+Résultat :  Ok
 
 Références relevées :
 
-Remarques :
+Remarques : Je n'ai pas trouvé la référence. 
 
 Photos associées :
