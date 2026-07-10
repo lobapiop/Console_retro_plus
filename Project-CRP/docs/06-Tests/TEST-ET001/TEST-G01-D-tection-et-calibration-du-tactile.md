@@ -27,19 +27,21 @@ Vérifier la détection, l’orientation et la précision du tactile.
 
 | Contrôle | Résultat |
 |---|---|
-| Tactile détecté automatiquement |  |
-| Coin supérieur gauche correct |  |
-| Coin supérieur droit correct |  |
-| Coin inférieur gauche correct |  |
-| Coin inférieur droit correct |  |
-| Centre correct |  |
-| Glissement correct |  |
-| Multitouch détecté |  |
-| Calibration nécessaire |  |
-| Orientation tactile correcte |  |
+| Tactile détecté automatiquement | Oui |
+| Coin supérieur gauche correct | Pas testable |
+| Coin supérieur droit correct | Pas testable |
+| Coin inférieur gauche correct | Ok |
+| Coin inférieur droit correct | Ok |
+| Centre correct | Ok |
+| Glissement correct | Ok |
+| Multitouch détecté | Pas testable |
+| Calibration nécessaire | Non |
+| Orientation tactile correcte | Oui |
 
 ## 4. Conclusion
 
-Résultat : Réussi / Réussi avec configuration / Échec
+Résultat : Réussi 
 
 Paramètres nécessaires :
+
+Commentaires : Je ne pouvais pas tester les angles pour savoir si tout est ok (pas de bouton disponible sur les angles). Même constat pour le multitouch.

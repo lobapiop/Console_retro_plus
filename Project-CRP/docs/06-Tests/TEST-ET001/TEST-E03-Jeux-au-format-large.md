@@ -18,21 +18,21 @@ Vérifier le comportement des contenus 16:9 ou proches du format de l’écran.
 
 | Contrôle | Conforme | Remarque |
 |---|---|---|
-| Utilisation correcte de la surface |  |  |
-| Image non déformée |  |  |
-| Menus lisibles |  |  |
-| Fluidité satisfaisante |  |  |
-| Aucun recadrage gênant |  |  |
+| Utilisation correcte de la surface | Oui |  |
+| Image non déformée | Non |  |
+| Menus lisibles | Oui |  |
+| Fluidité satisfaisante | Oui |  |
+| Aucun recadrage gênant | Oui |  |
 
 ## 3. Jeux utilisés
 
 | Système | Jeu | Résultat |
 |---|---|---|
-|  |  |  |
-|  |  |  |
+| PSP | Burnout Legends | ok |
+| PSP | GTA Liberty city Stories | Ok |
 
 ## 4. Conclusion
 
-Résultat : Réussi / Acceptable / Échec
+Résultat : Réussi
 
 Remarques :

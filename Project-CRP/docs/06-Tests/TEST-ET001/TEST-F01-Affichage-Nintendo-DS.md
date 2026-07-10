@@ -34,17 +34,35 @@ Système : Batocera
 
 | Contrôle | Résultat |
 |---|---|
-| Texte lisible |  |
-| Écrans suffisamment grands |  |
-| Changement de disposition accessible |  |
-| Absence de déformation |  |
-| Performances suffisantes |  |
-| Tactile utilisable |  |
+| Texte lisible | Oui |
+| Écrans suffisamment grands | Oui |
+| Changement de disposition accessible | Oui |
+| Absence de déformation | Oui |
+| Performances suffisantes | Oui |
+| Tactile utilisable | Non |
+
+## Observation sauvegarde Nintendo DS
+
+Après installation des fichiers BIOS Nintendo DS requis, le jeu Pokémon DS fonctionne correctement au relancement après sauvegarde.
+
+Résultat :
+
+- jeu lancé : oui ;
+- sauvegarde interne créée : oui ;
+- fermeture propre de l’émulateur : oui ;
+- relance après sauvegarde : oui ;
+- erreur de communication après relance : non après ajout des BIOS ;
+- cause probable du problème initial : BIOS / firmware Nintendo DS manquants.
+
+Conclusion :
+
+Le problème observé n’était pas lié au module d’affichage Elecrow.  
+Le test Nintendo DS peut reprendre avec un environnement logiciel corrigé.
 
 ## 5. Conclusion
 
-Disposition préférée :
+Disposition préférée : haut d'abord 
 
-Note globale sur 10 :
+Note globale sur 10 : 8
 
-Résultat : Validé / Acceptable avec réserve / Insuffisant
+Résultat : Acceptable avec réserve (j'aimerais pouvoir faire fonctionné le tactile ou au moins le joystik)

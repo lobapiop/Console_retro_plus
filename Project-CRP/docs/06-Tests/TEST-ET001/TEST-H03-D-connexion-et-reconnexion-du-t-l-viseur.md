@@ -27,15 +27,15 @@ Simuler le retrait et la remise en place de la console dans son futur dock.
 
 | Contrôle | Résultat |
 |---|---|
-| Retour automatique sur l’Elecrow |  |
-| Perte temporaire de l’image |  |
-| Redémarrage nécessaire |  |
-| Interface toujours utilisable |  |
-| Son correctement redirigé |  |
-| Reconnexion TV détectée |  |
+| Retour automatique sur l’Elecrow | Oui |
+| Perte temporaire de l’image | Oui |
+| Redémarrage nécessaire | Non |
+| Interface toujours utilisable | Oui |
+| Son correctement redirigé | pas de son |
+| Reconnexion TV détectée | Oui |
 
 ## 4. Conclusion
 
-Résultat : Réussi / Acceptable / Échec
+Résultat : Réussi 
 
-Remarques :
+Remarques : quand je reconnecte l'écran tv, l'écran Elecrow ne se remet pas.

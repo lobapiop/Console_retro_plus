@@ -32,14 +32,13 @@ Raspberry Pi 5 ── micro-HDMI/HDMI ──► Téléviseur
 
 | Contrôle | Résultat |
 |---|---|
-| Image affichée sur la TV |  |
-| Résolution correcte |  |
-| Son HDMI fonctionnel |  |
-| Menus lisibles |  |
-| Jeux fonctionnels |  |
+| Image affichée sur la TV | Oui |
+| Résolution correcte | Oui |
+| Son HDMI fonctionnel | Oui  |
+| Menus lisibles | Oui |
+| Jeux fonctionnels | Oui |
 
 ## 5. Conclusion
 
-Résultat : Réussi / Échec
-
+Résultat : Réussi 
 Remarques :
