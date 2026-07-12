@@ -17,19 +17,19 @@ Vérifier la stabilité de l’écran pendant une heure d’utilisation variée.
 ## 2. Séquence
 
 - 15 minutes dans les menus ;
-- 15 minutes sur un jeu 2D ;
-- 15 minutes sur un jeu 3D ;
-- 15 minutes sur Nintendo DS ou un émulateur exigeant.
+- 15 minutes sur un jeu 2D ; classic kong
+- 15 minutes sur un jeu 3D ; Crash bandicoot
+- 15 minutes sur Nintendo DS ou un émulateur exigeant. Pokemon or hearth gold
 
 ## 3. Relevés
 
 | Temps | État de l’image | Température écran | Température Pi | Défaut |
 |---:|---|---:|---:|---|
-| 0 min |  |  |  |  |
-| 15 min |  |  |  |  |
-| 30 min |  |  |  |  |
-| 45 min |  |  |  |  |
-| 60 min |  |  |  |  |
+| 0 min | Ok | froid  | 40800 |  |
+| 15 min | Ok | froid | 40800 |  |
+| 30 min | Ok | froid | 48500 |  |
+| 45 min | Ok | froid | 49050 |  |
+| 60 min | Ok | froid | 55100 |  |
 
 ## 4. Points à surveiller
 
@@ -44,6 +44,6 @@ Vérifier la stabilité de l’écran pendant une heure d’utilisation variée.
 
 ## 5. Conclusion
 
-Résultat : Réussi / Échec / À approfondir
+Résultat : Réussi 
 
 Remarques :

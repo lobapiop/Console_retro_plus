@@ -32,20 +32,20 @@ Relever les dimensions nécessaires au futur gabarit FreeCAD.
 
 | Élément | Valeur mesurée | Valeur du plan trouvé | Écart |
 |---|---:|---:|---:|
-| Largeur hors tout |  | 121,11 mm |  |
-| Hauteur hors tout |  | 77,93 mm |  |
-| Épaisseur de la dalle |  |  |  |
-| Épaisseur du PCB |  |  |  |
-| Profondeur maximale |  | 13,94 mm |  |
-| Largeur de la zone active |  | 108 mm |  |
-| Hauteur de la zone active |  | 64,8 mm |  |
+| Largeur hors tout | 122.77 | 121,11 mm | 1.66 |
+| Hauteur hors tout | 95.07mm | 77,93 mm | 17.14 |
+| Épaisseur de la dalle | 4.07 |  |  |
+| Épaisseur du PCB | 7.87 |  |  |
+| Profondeur maximale | 13.30 | 13,94 mm | -0.65 |
+| Largeur de la zone active | 108.88 | 108 mm | 0.88 |
+| Hauteur de la zone active | 66.36 | 64,8 mm | 1.56 |
 
-Instrument utilisé :
+Instrument utilisé : pied à coulisse
 
-Incertitude estimée :
+Incertitude estimée : épaisseur de PCB je n'ai pas pris en compte la mousse qui sépare la dalle du PCB.
 
 ## 5. Conclusion
 
-Dimensions du plan confirmées : Oui / Non / Partiellement
+Dimensions du plan confirmées : Partiellement
 
-Remarques :
+Remarques : voir Incertitudes

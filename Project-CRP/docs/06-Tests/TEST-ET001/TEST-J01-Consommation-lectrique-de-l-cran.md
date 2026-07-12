@@ -20,6 +20,13 @@ Mesurer la consommation réelle de l’écran selon sa luminosité et le contenu
 - chargeur USB 5 V ;
 - écran Elecrow.
 
+Référence envisagée :
+
+- Testeur USB Amazon B0DGFZ1PP4
+- Prix observé : 18,98 €
+- Fonctions annoncées : V, A, W, Wh, USB-A, USB-C
+- Statut : achat recommandé pour reprise ultérieure du test J01
+
 ## 3. Procédure
 
 Placer le testeur USB entre le chargeur et l’écran, puis effectuer chaque mesure après stabilisation.
