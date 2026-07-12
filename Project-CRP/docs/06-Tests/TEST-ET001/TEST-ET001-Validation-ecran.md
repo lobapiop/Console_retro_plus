@@ -179,3 +179,24 @@ Manette PS4 ou PS5
             │ USB
             ▼
      Raspberry Pi 5
+```
+
+# 8.Décision :
+
+L’écran Elecrow 5 pouces 1024×600 est retenu comme candidat prioritaire pour Project CRP.
+
+Statut :
+
+Validé sous réserve.
+
+Score après essais :
+
+8,2 / 10.
+
+Réserves restantes :
+
+- consommation électrique réelle non mesurée ;
+- câbles droits incompatibles avec la coque cible ;
+- câbles coudés ou adaptation interne nécessaires ;
+- protection obligatoire des nappes FPC ;
+- validation mécanique finale à réaliser dans FreeCAD.

@@ -1,7 +1,7 @@
 # Project CRP – TEST-G02 – Tactile dans un émulateur Nintendo DS
 
 Version : 0.1  
-Statut : à exécuter  
+Statut : réalisé – réussi avec réserve
 Étude associée : ET001 – Module d’affichage  
 Composant testé : Elecrow 5inch IPS HD Display-C 1024×600  
 Référence attendue : DLH04950B  
@@ -45,7 +45,7 @@ Vérifier l’utilisation du tactile dans les jeux Nintendo DS.
 ## Résultat TEST-G02 – Tactile dans un émulateur Nintendo DS
 
 Jeu testé :  
-Émulateur initial : àlibretro: melonDS
+Émulateur initial : autre cœur DS / configuration initiale non retenue
 Émulateur validé : melonDS  
 
 Le tactile physique de l’écran est détecté par Batocera sous le nom `QDtech MPI5001`.

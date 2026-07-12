@@ -1,7 +1,7 @@
 # Project CRP – Synthèse des tests ET001
 
 Version : 0.1  
-Statut : à compléter
+Statut : quasi final – J01 reporté
 
 ---
 
@@ -25,33 +25,31 @@ Statut : à compléter
 
 | Test | Résultat | Critique | Action |
 |---|---|---|---|
-| TEST-A01 – Identification du module |  | Oui  |  |
-| TEST-A02 – Comparaison avec le plan mécanique |  | Oui |  |
-| TEST-B01 – Mise sous tension de l’écran |  | Oui  |  |
-| TEST-B02 – Premier affichage avec le Raspberry Pi |  | Oui  |  |
-| TEST-C01 – Détection de la résolution |  | Oui |  |
-| TEST-C02 – Géométrie de l’image |  | Oui |  |
-| TEST-C03 – Redémarrages successifs |  | Oui |  |
-| TEST-D01 – Luminosité |  | Oui  |  |
-| TEST-D02 – Couleurs contraste et uniformité |  | Oui  |  |
-| TEST-D03 – Angles de vision |  | Oui |  |
-| TEST-D04 – Fluidité et rémanence |  | Oui  |  |
-| TEST-E01 – Interface EmulationStation |  | Oui  |  |
-| TEST-E02 – Jeux rétro au format 4 sur 3 |  | Oui  |  |
-| TEST-E03 – Jeux au format large |  | Oui  |  |
-| TEST-F01 – Affichage Nintendo DS |  | Oui  | changer l'émulateur |
-| TEST-G01 – Détection et calibration du tactile |  | Oui  |  |
-| TEST-G02 – Tactile dans un émulateur Nintendo DS |  | Oui  |  changer l'émulateur |
-| TEST-H01 – Sortie vers un téléviseur seul |  | Oui  |  |
-| TEST-H02 – Double sortie HDMI |  | Oui  |  |
-| TEST-H03 – Déconnexion et reconnexion du téléviseur |  | Oui  |  |
-| TEST-I01 – Fonctionnement prolongé et température |  | Oui  |  |
-| TEST-J01 – Consommation électrique de l’écran |  |  Non | A faire quand j'aurais les outils |
-| TEST-K01 – Dimensions principales du module |  | Oui  |  |
-| TEST-K02 – Fixations du module |  | Oui |  |
-| TEST-K03 – Connecteurs et composants saillants |  | Oui  |  |
-
----
+| TEST-A01 – Identification du module | Réussi | Oui |  |
+| TEST-A02 – Comparaison avec le plan mécanique | Réussi | Oui | Plan constructeur non retenu comme référence finale |
+| TEST-B01 – Mise sous tension de l’écran | Réussi | Oui |  |
+| TEST-B02 – Premier affichage avec le Raspberry Pi | Réussi | Oui |  |
+| TEST-C01 – Détection de la résolution | Réussi | Oui |  |
+| TEST-C02 – Géométrie de l’image | Réussi | Oui |  |
+| TEST-C03 – Redémarrages successifs | Réussi | Oui |  |
+| TEST-D01 – Luminosité | Réussi | Oui |  |
+| TEST-D02 – Couleurs contraste et uniformité | Réussi | Oui |  |
+| TEST-D03 – Angles de vision | Réussi | Oui |  |
+| TEST-D04 – Fluidité et rémanence | Réussi | Oui |  |
+| TEST-E01 – Interface EmulationStation | Réussi | Oui |  |
+| TEST-E02 – Jeux rétro au format 4 sur 3 | Réussi | Oui |  |
+| TEST-E03 – Jeux au format large | Réussi | Oui |  |
+| TEST-F01 – Affichage Nintendo DS | Réussi avec réserve | Oui | Utiliser melonDS et une disposition adaptée |
+| TEST-G01 – Détection et calibration du tactile | Réussi | Oui |  |
+| TEST-G02 – Tactile dans un émulateur Nintendo DS | Réussi avec réserve | Oui | Utiliser melonDS |
+| TEST-H01 – Sortie vers un téléviseur seul | Réussi | Oui |  |
+| TEST-H02 – Double sortie HDMI | Réussi | Oui | Comportement documenté |
+| TEST-H03 – Déconnexion et reconnexion du téléviseur | Réussi | Oui |  |
+| TEST-I01 – Fonctionnement prolongé et température | Réussi | Oui |  |
+| TEST-J01 – Consommation électrique de l’écran | Reporté | Non | À faire avec testeur USB |
+| TEST-K01 – Dimensions principales du module | Réussi | Oui |  |
+| TEST-K02 – Fixations du module | Réussi | Oui |  |
+| TEST-K03 – Connecteurs et composants saillants | Réussi avec réserve | Oui | Câbles coudés nécessaires |
 
 ## 3. Notes expérimentales
 

@@ -39,7 +39,7 @@ Système : Batocera
 | Changement de disposition accessible | Oui |
 | Absence de déformation | Oui |
 | Performances suffisantes | Oui |
-| Tactile utilisable | Non |
+| Tactile utilisable | Oui, avec melonDS |
 
 ## Observation sauvegarde Nintendo DS
 
@@ -65,4 +65,8 @@ Disposition préférée : haut d'abord
 
 Note globale sur 10 : 8
 
-Résultat : Acceptable avec réserve (j'aimerais pouvoir faire fonctionné le tactile ou au moins le joystik)
+Résultat : Acceptable avec réserve
+
+Réserve :
+Le confort Nintendo DS dépend fortement de la disposition des écrans et de l’émulateur utilisé.  
+Le tactile est fonctionnel avec `melonDS`.
