@@ -1,7 +1,7 @@
 # Project CRP – TEST-C01 – Détection de la résolution
 
 Version : 0.1  
-Statut : à exécuter  
+Statut : réalisé
 Étude associée : ET001 – Module d’affichage  
 Composant testé : Elecrow 5inch IPS HD Display-C 1024×600  
 Référence attendue : DLH04950B  

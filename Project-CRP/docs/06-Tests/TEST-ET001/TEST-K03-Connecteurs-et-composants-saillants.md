@@ -45,7 +45,7 @@ Déterminer les volumes à réserver autour des connecteurs, boutons et composan
 
 Profondeur de réservation recommandée :
 
-`5 mm`
+`65 mm`
 
 Câbles coudés nécessaires : Oui 
 

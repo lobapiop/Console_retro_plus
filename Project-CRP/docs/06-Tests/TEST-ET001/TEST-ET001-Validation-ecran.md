@@ -1,7 +1,7 @@
 # Project CRP – TEST-ET001 – Validation du module d’affichage
 
 Version : 0.1  
-Statut : à exécuter  
+Statut : à finalisé après l'arrivé du test USB
 Étude associée : ET001 – Module d’affichage  
 Composant testé : Elecrow 5inch IPS HD Display-C 1024×600  
 Référence attendue : DLH04950B  
@@ -121,18 +121,18 @@ Exemples de défauts critiques :
 
 | Information | Valeur |
 |---|---|
-| Date du test |  |
-| Testeur |  |
-| Version de Batocera |  |
-| Modèle du Raspberry Pi |  |
-| Quantité de mémoire |  |
-| Référence de l’écran |  |
+| Date du test | 2026-07-12 |
+| Testeur | Lobapiop |
+| Version de Batocera | batocera-bcm2712-43.1-20260529 |
+| Modèle du Raspberry Pi | PI 5 |
+| Quantité de mémoire | 4Gbi |
+| Référence de l’écran | QDtech MPI5001 |
 | Référence indiquée sur le PCB |  |
-| Référence indiquée sur l’emballage |  |
-| Type de carte microSD |  |
-| Type d’alimentation du Pi |  |
-| Type d’alimentation de l’écran |  |
-| Téléviseur utilisé |  |
+| Référence indiquée sur l’emballage | 5inch HD Diplay-C |
+| Type de carte microSD | 64go |
+| Type d’alimentation du Pi | Origine |
+| Type d’alimentation de l’écran | Origine |
+| Téléviseur utilisé | MSI optix MAG241CV |
 | Version du firmware Raspberry Pi, si disponible |  |
 
 ---

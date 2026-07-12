@@ -29,10 +29,10 @@ T2 = trou haut droit
 T3 = trou bas gauche
 T4 = trou bas droit
 
-Diamètre trou T1 : 30 mm
-Diamètre trou T2 : 30 mm
-Diamètre trou T3 : 30 mm
-Diamètre trou T4 : 30 mm
+Diamètre trou T1 : 3 mm
+Diamètre trou T2 : 3 mm
+Diamètre trou T3 : 3 mm
+Diamètre trou T4 : 3 mm
 
 Entraxe horizontal supérieur : T1 → T2
 Entraxe horizontal inférieur : T3 → T4
@@ -48,8 +48,8 @@ Entraxe vertical droit : T2 → T4
 
 T1 : centre à 5 mm du bord gauche, 5 mm du bord supérieur
 T2 : centre à 117.57 mm du bord gauche, 5 mm du bord supérieur
-T3 : centre à 5 mm du bord gauche, 5 mm du bord supérieur
-T4 : centre à 117.57 mm du bord gauche, 5 mm du bord supérieur
+T3 : centre à 5 mm du bord gauche, 91 mm du bord supérieur
+T4 : centre à 117.57 mm du bord gauche, 91 mm du bord supérieur
 
 Y a-t-il un composant proche ? non tout est à l'extérieur
 Y a-t-il assez de place pour une tête de vis ? oui

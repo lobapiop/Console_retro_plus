@@ -9,15 +9,15 @@ Statut : à compléter
 
 | Information | Valeur |
 |---|---|
-| Date du début des essais |  |
-| Date de fin des essais |  |
-| Testeur |  |
-| Version de Batocera |  |
+| Date du début des essais | 2026-07-06 |
+| Date de fin des essais | 2026-07-12 |
+| Testeur | Lobapiop |
+| Version de Batocera | batocera-bcm2712-43.1-20260529 |
 | Modèle du Raspberry Pi | Raspberry Pi 5 – 4 Go |
-| Référence de l’écran |  |
+| Référence de l’écran | QDtech MPI5001 |
 | Référence du PCB |  |
-| Alimentation du Pi |  |
-| Alimentation de l’écran |  |
+| Alimentation du Pi | Origine PI 5 |
+| Alimentation de l’écran | Orgine écran |
 
 ---
 
@@ -25,46 +25,58 @@ Statut : à compléter
 
 | Test | Résultat | Critique | Action |
 |---|---|---|---|
-| TEST-A01 – Identification du module |  | Oui / Non |  |
-| TEST-A02 – Comparaison avec le plan mécanique |  | Oui / Non |  |
-| TEST-B01 – Mise sous tension de l’écran |  | Oui / Non |  |
-| TEST-B02 – Premier affichage avec le Raspberry Pi |  | Oui / Non |  |
-| TEST-C01 – Détection de la résolution |  | Oui / Non |  |
-| TEST-C02 – Géométrie de l’image |  | Oui / Non |  |
-| TEST-C03 – Redémarrages successifs |  | Oui / Non |  |
-| TEST-D01 – Luminosité |  | Oui / Non |  |
-| TEST-D02 – Couleurs contraste et uniformité |  | Oui / Non |  |
-| TEST-D03 – Angles de vision |  | Oui / Non |  |
-| TEST-D04 – Fluidité et rémanence |  | Oui / Non |  |
-| TEST-E01 – Interface EmulationStation |  | Oui / Non |  |
-| TEST-E02 – Jeux rétro au format 4 sur 3 |  | Oui / Non |  |
-| TEST-E03 – Jeux au format large |  | Oui / Non |  |
-| TEST-F01 – Affichage Nintendo DS |  | Oui / Non |  |
-| TEST-G01 – Détection et calibration du tactile |  | Oui / Non |  |
-| TEST-G02 – Tactile dans un émulateur Nintendo DS |  | Oui / Non |  |
-| TEST-H01 – Sortie vers un téléviseur seul |  | Oui / Non |  |
-| TEST-H02 – Double sortie HDMI |  | Oui / Non |  |
-| TEST-H03 – Déconnexion et reconnexion du téléviseur |  | Oui / Non |  |
-| TEST-I01 – Fonctionnement prolongé et température |  | Oui / Non |  |
-| TEST-J01 – Consommation électrique de l’écran |  | Oui / Non |  |
-| TEST-K01 – Dimensions principales du module |  | Oui / Non |  |
-| TEST-K02 – Fixations du module |  | Oui / Non |  |
-| TEST-K03 – Connecteurs et composants saillants |  | Oui / Non |  |
+| TEST-A01 – Identification du module |  | Oui  |  |
+| TEST-A02 – Comparaison avec le plan mécanique |  | Oui |  |
+| TEST-B01 – Mise sous tension de l’écran |  | Oui  |  |
+| TEST-B02 – Premier affichage avec le Raspberry Pi |  | Oui  |  |
+| TEST-C01 – Détection de la résolution |  | Oui |  |
+| TEST-C02 – Géométrie de l’image |  | Oui |  |
+| TEST-C03 – Redémarrages successifs |  | Oui |  |
+| TEST-D01 – Luminosité |  | Oui  |  |
+| TEST-D02 – Couleurs contraste et uniformité |  | Oui  |  |
+| TEST-D03 – Angles de vision |  | Oui |  |
+| TEST-D04 – Fluidité et rémanence |  | Oui  |  |
+| TEST-E01 – Interface EmulationStation |  | Oui  |  |
+| TEST-E02 – Jeux rétro au format 4 sur 3 |  | Oui  |  |
+| TEST-E03 – Jeux au format large |  | Oui  |  |
+| TEST-F01 – Affichage Nintendo DS |  | Oui  | changer l'émulateur |
+| TEST-G01 – Détection et calibration du tactile |  | Oui  |  |
+| TEST-G02 – Tactile dans un émulateur Nintendo DS |  | Oui  |  changer l'émulateur |
+| TEST-H01 – Sortie vers un téléviseur seul |  | Oui  |  |
+| TEST-H02 – Double sortie HDMI |  | Oui  |  |
+| TEST-H03 – Déconnexion et reconnexion du téléviseur |  | Oui  |  |
+| TEST-I01 – Fonctionnement prolongé et température |  | Oui  |  |
+| TEST-J01 – Consommation électrique de l’écran |  |  Non | A faire quand j'aurais les outils |
+| TEST-K01 – Dimensions principales du module |  | Oui  |  |
+| TEST-K02 – Fixations du module |  | Oui |  |
+| TEST-K03 – Connecteurs et composants saillants |  | Oui  |  |
 
 ---
 
 ## 3. Notes expérimentales
 
-| Critère | Pondération | Note avant essai | Note après essai |
-|---|---:|---:|---:|
-| Compatibilité Raspberry Pi | 20 % | 8 |  |
-| Intégration mécanique | 20 % | 9 |  |
-| Intégration électronique | 15 % | 8,5 |  |
-| Qualité d’affichage | 20 % | 8 |  |
-| Maintenance | 10 % | 8 |  |
-| Pérennité | 10 % | 7 |  |
-| Documentation | 5 % | 9 |  |
-| **Score pondéré** | **100 %** | **Provisoire** |  |
+| Critère | Pondération | Note avant essai | Note après essai | Justification après essai |
+|---|---:|---:|---:|---|
+| Compatibilité Raspberry Pi | 20 % | 8 | 9 | Fonctionne avec Raspberry Pi 5 et Batocera, résolution 1024×600 validée, HDMI fonctionnel, tactile détecté. |
+| Intégration mécanique | 20 % | 9 | 7,5 | Dimensions réelles acceptables, fixation possible, mais câbles droits HDMI/USB-C/jack trop encombrants pour la coque cible. Câbles coudés ou adaptation nécessaire. |
+| Intégration électronique | 15 % | 8,5 | 8 | Fonctionne correctement, tactile USB reconnu, HDMI OK. Réserve restante sur consommation réelle non mesurée et câblage interne à optimiser. |
+| Qualité d’affichage | 20 % | 8 | 9 | Géométrie, couleurs, luminosité, angles de vision et fluidité validés. Très bon résultat pour Project CRP. |
+| Maintenance | 10 % | 8 | 8 | Module remplaçable et connectique accessible, mais présence de nappes FPC fragiles à protéger. |
+| Pérennité | 10 % | 7 | 7 | Produit disponible et bien adapté, mais dépend d’un module commercial tiers non officiel Raspberry Pi. |
+| Documentation | 5 % | 9 | 8,5 | Documentation suffisante, marquages PCB utiles, mais plan mécanique trouvé non conforme au module reçu. Les mesures réelles deviennent prioritaires. |
+| **Score pondéré** | **100 %** | **Provisoire** | **8,2 / 10** | Écran validé sous réserve mécanique et alimentation. |
+
+
+Compatibilité Raspberry Pi : 9 × 20 % = 1,80
+Intégration mécanique : 7,5 × 20 % = 1,50
+Intégration électronique : 8 × 15 % = 1,20
+Qualité d’affichage : 9 × 20 % = 1,80
+Maintenance : 8 × 10 % = 0,80
+Pérennité : 7 × 10 % = 0,70
+Documentation : 8,5 × 5 % = 0,425
+
+Score total = 8,225 / 10
+Score arrondi = 8,2 / 10
 
 ---
 
@@ -113,16 +125,27 @@ Conclusion :
 ## 8. Décision
 
 - [ ] Écran validé
-- [ ] Écran validé sous réserve
+- [X] Écran validé sous réserve
 - [ ] Tests complémentaires nécessaires
 - [ ] Écran rejeté
 
 Justification :
+Après essais, l’écran Elecrow 5 pouces 1024×600 obtient un score pondéré de **8,2 / 10**.
+
+Il est validé comme **candidat prioritaire pour Project CRP**, sous réserve de validation mécanique finale.
+
 
 Réserves :
 
+- consommation électrique réelle non encore mesurée ;
+- câbles droits HDMI, USB-C et audio incompatibles avec la profondeur cible ;
+- nécessité probable de câbles coudés ou d’une solution d’adaptation interne ;
+- intégration mécanique à confirmer dans FreeCAD ;
+- protection obligatoire des nappes FPC ;
+- validation finale à réaliser après conception du gabarit mécanique.
+
 Actions suivantes :
 
-1. 
-2. 
-3. 
+1. remplir SYNTHESE-ET001.md
+2. mettre à jour ET001-Ecran.md avec la décision “validé sous réserve” 
+3. préparer le gabarit FreeCAD du module Elecrow.

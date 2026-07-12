@@ -39,7 +39,7 @@ Vérifier l’utilisation du tactile dans les jeux Nintendo DS.
 | Handler détecté |  event0 |
 | Type d’entrée | Coordonnées absolues |
 | Réaction tactile dans Batocera | Oui |
-| Réaction tactile dans jeu DS | Non |
+| Réaction tactile dans jeu DS | Oui après changement emulateur (melonDS)|
 | Calibration nécessaire | À confirmer |
 
 ## Résultat TEST-G02 – Tactile dans un émulateur Nintendo DS
@@ -69,6 +69,9 @@ Résultat :
 
 
 ## 4. Conclusion
+
+Résultat : Réussi avec réserve
+Réserve : confort Nintendo DS dépendant de la disposition d’écran et de l’émulateur utilisé.
 
 Le tactile Nintendo DS est validé avec `melonDS`.
 
